@@ -9,9 +9,6 @@ class Dueño(models.Model):
     Telefono = models.CharField(max_length=20)
     CorreoElectronico = models.EmailField()
 
-    class Meta:
-        unique_together = ('Nombres', 'Apellidos', 'Direccion', 'Telefono', 'CorreoElectronico')
-
     def __str__(self):
         return 'Dueño ID: ' + str(self.DueñoID) + ' / Dueño: ' + self.Nombres + ' ' + self.Apellidos
 
