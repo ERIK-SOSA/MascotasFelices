@@ -1,0 +1,207 @@
+localhost:8000/api/duenios/
+
+{
+    "Nombres": "Ana Maria",
+    "Apellidos": "Lourdes Perez",
+    "Direccion": "Guatmela, 45 calle 25-5",
+    "Telefono": "52365258",
+    "CorreoElectronico": "anaperez@email.com"
+}
+{
+    "Nombres": "Juan",
+    "Apellidos": "Pérez López",
+    "Direccion": "10 calle, zona 10, Guatemala.",
+    "Telefono": "58741236",
+    "CorreoElectronico": "juan@email.com"
+},
+{
+    "Nombres": "María",
+    "Apellidos": "García Rodríguez",
+    "Direccion": "15 avenida, zona 4, Guatemala.",
+    "Telefono": "56987412",
+    "CorreoElectronico": "maria@email.net"
+},
+{
+    "Nombres": "Pedro",
+    "Apellidos": "Hernández Martínez",
+    "Direccion": "20 calle, zona 6, Guatemala.",
+    "Telefono": "59874512",
+    "CorreoElectronico": "pedro@email.org"
+},
+{
+    "Nombres": "Ana",
+    "Apellidos": "López García",
+    "Direccion": "5 avenida, zona 2, Guatemala.",
+    "Telefono": "58741258",
+    "CorreoElectronico": "ana@email.co"
+},
+{
+    "Nombres": "Luis",
+    "Apellidos": "Martínez Rodríguez",
+    "Direccion": "30 calle, zona 9, Guatemala.",
+    "Telefono": "56987456",
+    "CorreoElectronico": "luis@email.uk"
+},
+{
+    "Nombres": "Sofía",
+    "Apellidos": "González Pérez",
+    "Direccion": "12 avenida, zona 7, Guatemala.",
+    "Telefono": "58741269",
+    "CorreoElectronico": "sofia@email.de"
+},
+{
+    "Nombres": "Carlos",
+    "Apellidos": "Fernández López",
+    "Direccion": "25 calle, zona 11, Guatemala.",
+    "Telefono": "59874569",
+    "CorreoElectronico": "carlos@email.fr"
+},
+{
+    "Nombres": "Laura",
+    "Apellidos": "Sánchez García",
+    "Direccion": "8 avenida, zona 3, Guatemala.",
+    "Telefono": "58741230",
+    "CorreoElectronico": "laura@email.nl"
+},
+{
+    "Nombres": "Javier",
+    "Apellidos": "López Rodríguez",
+    "Direccion": "18 calle, zona 8, Guatemala.",
+    "Telefono": "56987430",
+    "CorreoElectronico": "javier@email.it"
+}
+
+
+
+localhost:8000/api/mascotas/
+
+{
+    "Nombre": "Max",
+    "Especie": "Perro",
+    "Sexo": "M",
+    "Raza": "Labrador Retriever",
+    "Edad": 3,
+    "Seño": "Parasitos",
+    "FechaNacimiento": "2019-04-10",
+    "Color": "Dorado",
+    "Peso": 25,
+    "NotasAdicionales": "Le gusta jugar con pelotas",
+    "DueñoID": 1
+},
+{
+    "Nombre": "Luna",
+    "Especie": "Gato",
+    "Sexo": "H",
+    "Raza": "Siamés",
+    "Edad": 2,
+    "Seño": "Ninguno",
+    "FechaNacimiento": "2020-07-22",
+    "Color": "Gris",
+    "Peso": 5,
+    "NotasAdicionales": "Es muy cariñosa",
+    "DueñoID": 2
+},
+{
+    "Nombre": "Buddy",
+    "Especie": "Perro",
+    "Sexo": "M",
+    "Raza": "Bulldog Inglés",
+    "Edad": 4,
+    "Seño": "Ninguno",
+    "FechaNacimiento": "2018-10-05",
+    "Color": "Blanco y marrón",
+    "Peso": 20,
+    "NotasAdicionales": "Le encanta jugar al aire libre",
+    "DueñoID": 3
+},
+{
+    "Nombre": "Simba",
+    "Especie": "Perro",
+    "Sexo": "M",
+    "Raza": "Golden Retriever",
+    "Edad": 1,
+    "Seño": "Pulgas",
+    "FechaNacimiento": "2022-01-15",
+    "Color": "Dorado",
+    "Peso": 30,
+    "NotasAdicionales": "Es muy activo",
+    "DueñoID": 4
+},
+{
+    "Nombre": "Cleo",
+    "Especie": "Gato",
+    "Sexo": "H",
+    "Raza": "Persa",
+    "Edad": 5,
+    "Seño": "Ninguno",
+    "FechaNacimiento": "2017-03-08",
+    "Color": "Blanco",
+    "Peso": 8,
+    "NotasAdicionales": "Es muy juguetona",
+    "DueñoID": 5
+},
+{
+    "Nombre": "Rocky",
+    "Especie": "Perro",
+    "Sexo": "M",
+    "Raza": "Boxer",
+    "Edad": 2,
+    "Seño": "Garrapatas",
+    "FechaNacimiento": "2020-09-30",
+    "Color": "Atigrado",
+    "Peso": 28,
+    "NotasAdicionales": "Le gusta correr",
+    "DueñoID": 6
+},
+{
+    "Nombre": "Molly",
+    "Especie": "Perro",
+    "Sexo": "H",
+    "Raza": "Cocker Spaniel",
+    "Edad": 3,
+    "Seño": "Ninguno",
+    "FechaNacimiento": "2019-06-12",
+    "Color": "Negro",
+    "Peso": 18,
+    "NotasAdicionales": "Es muy tranquila",
+    "DueñoID": 7
+},
+{
+    "Nombre": "Lucky",
+    "Especie": "Perro",
+    "Sexo": "M",
+    "Raza": "Chihuahua",
+    "Edad": 7,
+    "Seño": "Ninguno",
+    "FechaNacimiento": "2015-02-28",
+    "Color": "Café",
+    "Peso": 5,
+    "NotasAdicionales": "Le encanta estar en el regazo de su dueño",
+    "DueñoID": 8
+},
+{
+    "Nombre": "Whiskers",
+    "Especie": "Gato",
+    "Sexo": "H",
+    "Raza": "Maine Coon",
+    "Edad": 4,
+    "Seño": "Ninguno",
+    "FechaNacimiento": "2018-11-20",
+    "Color": "Atigrado",
+    "Peso": 12,
+    "NotasAdicionales": "Es muy independiente",
+    "DueñoID": 9
+},
+{
+    "Nombre": "Bella",
+    "Especie": "Perro",
+    "Sexo": "H",
+    "Raza": "Yorkshire Terrier",
+    "Edad": 6,
+    "Seño": "Ninguno",
+    "FechaNacimiento": "2016-08-05",
+    "Color": "Negro y marrón",
+    "Peso": 10,
+    "NotasAdicionales": "Es muy sociable",
+    "DueñoID": 10
+}
