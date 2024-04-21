@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from .models import Dueño, Mascota, FichaDesparacitacion, Cita, EstadisticasReportes, Empleado, FacturacionPagos, FacturacionProductosMedicamentos, ProductosMedicamentos 
-from .serialiazers import  DueñoSerializer, MascotaSerializer, FichaDesparacitacionSerializer, CitaSerializer, EstadisticasReportesSerializer, EmpleadoSerializer, FacturacionPagosSerializer, FacturacionProductosMedicamentosSerializer, ProductosMedicamentosSerializer 
+from .serializers import  DueñoSerializer, MascotaSerializer, FichaDesparacitacionSerializer, CitaSerializer, EstadisticasReportesSerializer, EmpleadoSerializer, FacturacionPagosSerializer, FacturacionProductosMedicamentosSerializer, ProductosMedicamentosSerializer 
 
 class DueñoViewSet(viewsets.ModelViewSet):
     queryset = Dueño.objects.all()
