@@ -1,47 +1,47 @@
 from rest_framework import serializers
-from .models import Dueño, Mascota, FichaDesparacitacion, Cita, EstadisticasReportes, Empleado, FacturacionPagos, FacturacionProductosMedicamentos, ProductosMedicamentos
+from .models import dueños, mascotas, fichadesparacitacion, citas, estadisticasreportes, empleados, facturacionpagos, facturacionproductosmedicamentos, productosmedicamentos
 
 class DueñoSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Dueño
+        model = dueños
         fields = '__all__'
 
 class MascotaSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Mascota
+        model = mascotas
         fields = '__all__'
 
 class FichaDesparacitacionSerializer(serializers.ModelSerializer):
     class Meta:
-        model = FichaDesparacitacion
+        model = fichadesparacitacion
         fields = '__all__'
 
 class CitaSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Cita
+        model = citas
         fields = '__all__'
 
 class EstadisticasReportesSerializer(serializers.ModelSerializer):
     class Meta:
-        model = EstadisticasReportes
+        model = estadisticasreportes
         fields = '__all__'
 
 class EmpleadoSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Empleado
+        model = empleados
         fields = '__all__'
 
 class FacturacionPagosSerializer(serializers.ModelSerializer):
     class Meta:
-        model = FacturacionPagos
+        model = facturacionpagos
         fields = '__all__'
 
 class FacturacionProductosMedicamentosSerializer(serializers.ModelSerializer):
     class Meta:
-        model = FacturacionProductosMedicamentos
+        model = facturacionproductosmedicamentos
         fields = '__all__'
 
 class ProductosMedicamentosSerializer(serializers.ModelSerializer):
     class Meta:
-        model = ProductosMedicamentos
+        model = productosmedicamentos
         fields = '__all__'

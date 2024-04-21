@@ -1,13 +1,13 @@
 from django.contrib import admin
 
-from .models import Dueño, Mascota, FichaDesparacitacion, Cita, EstadisticasReportes, Empleado, FacturacionPagos, FacturacionProductosMedicamentos, ProductosMedicamentos
+from .models import dueños, mascotas, fichadesparacitacion, citas, estadisticasreportes, empleados, facturacionpagos, facturacionproductosmedicamentos, productosmedicamentos
 
-admin.site.register(Dueño)
-admin.site.register(Mascota)
-admin.site.register(FichaDesparacitacion)
-admin.site.register(Cita)
-admin.site.register(EstadisticasReportes)
-admin.site.register(Empleado)
-admin.site.register(FacturacionPagos)
-admin.site.register(FacturacionProductosMedicamentos)
-admin.site.register(ProductosMedicamentos)
+admin.site.register(dueños)
+admin.site.register(mascotas)
+admin.site.register(fichadesparacitacion)
+admin.site.register(citas)
+admin.site.register(estadisticasreportes)
+admin.site.register(empleados)
+admin.site.register(facturacionpagos)
+admin.site.register(facturacionproductosmedicamentos)
+admin.site.register(productosmedicamentos)

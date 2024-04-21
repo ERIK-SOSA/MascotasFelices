@@ -9,12 +9,16 @@ RUN apk update \
     && pip install --upgrade pip
 
 COPY ./Requirements.txt ./
+COPY ./entrypoint.sh ./
 
 RUN pip install -r Requirements.txt
 
 COPY ./ ./
 
-COPY wait-for-it.sh ./
+COPY ./entrypoint.sh ./  
+RUN chmod +x entrypoint.sh  
+RUN chmod 777 entrypoint.sh  
 
-# CMD ["wait-for-it.sh", "db:5432", "--", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+# COPY wait-for-it.sh ./
+
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
